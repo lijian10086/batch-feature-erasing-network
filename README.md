@@ -88,3 +88,5 @@ This traning command is tested on 4 GTX1080 gpus. Here is [training log](http://
 ## 李剑备注：
 1.https://zhuanlan.zhihu.com/p/53241545?utm_source=wechat_session&utm_medium=social&utm_oi=589576447262199808
 本源码对应的论文解读分析：行人重识别代码准确率95.3%:BFENet
+2.https://zhuanlan.zhihu.com/p/40514536 和 https://github.com/lijian10086/reid_baseline
+一个强力的ReID basemodel 和对应的源码
