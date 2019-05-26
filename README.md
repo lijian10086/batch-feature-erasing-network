@@ -84,3 +84,7 @@ python main_reid.py train --save_dir='./pytorch-ckpt/clothes_bfe' --model_name=b
 python main_reid.py train --save_dir='./pytorch-ckpt/market-bfe' --max_epoch=400 --eval_step=30 --dataset=market1501 --test_batch=128 --train_batch=128 --optim=adam --adjust_lr
 ```
 This traning command is tested on 4 GTX1080 gpus. Here is [training log](http://virutalbuy-public.oss-cn-hangzhou.aliyuncs.com/share/bfe_models/market_953.txt). You shoud get a result around 95%.
+
+## 李剑备注：
+1.https://zhuanlan.zhihu.com/p/53241545?utm_source=wechat_session&utm_medium=social&utm_oi=589576447262199808
+本源码对应的论文解读分析：行人重识别代码准确率95.3%:BFENet
